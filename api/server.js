@@ -24,19 +24,19 @@ server.get("/api", (req, res) => {
 <meta name="twitter:image" content=${image} />
 <meta name="description" property='og:description' content='NAME|check deploy status PITCH|check the deployment status of your production api 🤝🏼'>
 <meta name="image" property="og:image"  content='https://i.imgur.com/GXJ8srz.jpg?2'>
-<meta name="title" property="og:title"  content='checkDeployStatusNODEEXPRESS❌✅😎'>
+<meta name="title" property="og:title"  content='check-deploy-status NODE EXPRESS [❌||✅] 😎'>
 <meta name="author" property="og:title"  content='Tucker Wray | jtwray '>
 <meta property='og:image' content='https://i.imgur.com/GXJ8srz.jpg?2'>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property='og:url' content='https://checkDeployStatus.herokuapp.com/api'>
+<meta property='og:url' content='https://check-deploy-status.herokuapp.com/api'>
 </head>
-<og:title><h1>checkDeployStatusNODEEXPRESS❌✅😎</h1></og:title>
+<og:title><h1>check-deploy-status NODE EXPRESS [❌||✅] 😎</h1></og:title>
 
-<h2>https://checkDeployStatus.herokuapp.com/  ✔ api status</h2>
+<h2>https://check-deploy-status.herokuapp.com/  ✔ api status</h2>
 
 <hr>
-<h3>https://checkDeployStatus.herokuapp.com/api/ endpoint documentation📃</h3>
+<h3>https://check-deploy-status.herokuapp.com/api/ endpoint documentation📃</h3>
 
 <br>
 <blockquote class="imgur-embed-pub" lang="en" data-id="hpzN3f8"><a href="//imgur.com/hpzN3f8"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -48,12 +48,12 @@ server.get("/api", (req, res) => {
 server.get("/", (req, res) => {
   console.log("api:uppp");
   res.send(`
-  <title><h1>checkDeployStatus</h1></title>
+  <title><h1>check-deploy-status NODE EXPRESS [❌||✅] 😎 </h1></title>
     <h2>server is up 🆙</h2><br>
-    <h2>https://checkDeployStatus.herokuapp.com/      ✔   api status</h2>
+    <h2>https://check-deploy-status.herokuapp.com/      ✔   api status</h2>
     <hr>
  
-    <h3>https://checkDeployStatus.herokuapp.com/api/ 🔐  endpoint documentation</h3>
+    <h3>https://check-deploy-status.herokuapp.com/api/ 🔐  endpoint documentation</h3>
     `);
 });
 
