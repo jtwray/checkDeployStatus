@@ -48,12 +48,11 @@ server.get("/api", (req, res) => {
 server.get("/", (req, res) => {
   console.log("api:uppp");
   res.send(`
-  <title><h1>check-deploy-status NODE EXPRESS [❌||✅] 😎 </h1></title>
+  <title>check-deploy-status NODE EXPRESS [❌||✅] 😎 </title>
     <h2>server is up 🆙</h2><br>
-    <h2>https://check-deploy-status.herokuapp.com/      ✔   api status</h2>
-    <hr>
- 
-    <h3>https://check-deploy-status.herokuapp.com/api/ 🔐  endpoint documentation</h3>
+    <h2>https://check-deploy-status.herokuapp.com/      ✔  | api status</h2>
+    <hr> 
+    <h3>https://check-deploy-status.herokuapp.com/api/  📃 | endpoint documentation</h3>
     `);
 });
 
