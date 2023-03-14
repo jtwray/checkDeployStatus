@@ -48,7 +48,7 @@ server.get("/api", (req, res) => {
 server.get("/", (req, res) => {
   console.log("api:uppp");
   res.send(`
-  <title><h1>checkDeployStatus</h1></title>
+  <title>checkDeployStatus</title>
     <h2>server is up 🆙</h2><br>
     <h2>https://checkDeployStatus.herokuapp.com/      ✔   api status</h2>
     <hr>
